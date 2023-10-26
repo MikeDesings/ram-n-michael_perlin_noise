@@ -36,3 +36,4 @@ function draw() {
   fill(color2);
   circle(posX2, posY2, tam2);
 }
+// CDN Conent Delivery Network Red de entrega de contenidos
