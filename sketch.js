@@ -15,7 +15,7 @@ function draw() {
   let posY1 = map(noise(noiseTimeA + 100), 0, 1, 0, windowHeight);
   let tam1 = map(noise(noiseTamA), 0, 1, 50, 5);
   let color1 = color(random(100, 255), random(0, 150), random(50, 200), 50);
-  noiseTimeA += 0.005;
+  noiseTimeA += 0.008;
   noiseTamA += 0.05;
 
   // Segundo círculo Negativo
@@ -28,7 +28,7 @@ function draw() {
 
   noStroke();
   // definición de no bordes del circulo
-  // Dibujado del primer circulo
+  // dibujado del primer circulo
   fill(color1);
   circle(posX1, posY1, tam1);
 
